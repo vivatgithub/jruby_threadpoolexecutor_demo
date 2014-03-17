@@ -1,3 +1,13 @@
 == jruby_threadpoolexecutor_demo
 
 Simple demonstration of using Java's ExecutorService from Jruby.
+
+The source file is in "lib/main.rb"
+
+Used following java classes
+
+java.util.concurrent.ThreadPoolExecutor
+java.util.concurrent.TimeUnit
+java.util.concurrent.LinkedBlockingQueue
+java.util.concurrent.FutureTask
+java.util.concurrent.Callable
