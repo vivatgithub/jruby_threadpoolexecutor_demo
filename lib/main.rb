@@ -60,7 +60,7 @@ while (true)
   }
       
   puts "#{Time.now} : ------- awaiting termination of slice #{slice_num}"
-  #executor.shutdown()
+  executor.shutdown()
   executor.await_termination(100, TimeUnit::SECONDS) 
   puts "#{Time.now} : ------- completed slice #{slice_num}"
   
